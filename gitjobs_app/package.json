@@ -1,0 +1,16 @@
+{
+  "name": "gitjobs_app",
+  "version": "1.0.0",
+  "description": "Application to use gitjob custom module and interact with the API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shardul Dave",
+  "license": "MIT",
+  "dependencies": {
+    "gitjobs": "file:../gitjobs",
+    "inquirer": "^6.2.2",
+    "yargs": "^13.2.2"
+  }
+}
